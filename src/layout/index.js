@@ -1,17 +1,14 @@
 import { Outlet } from 'react-router-dom'
-import Header from '../components/header'
-import { Footer, Body } from './component'
+import {  Body } from './component'
 
 
 
-export default function Layout ({ title }) {
+export default function Layout () {
   return (
     <>
-      <Header />
-      <Body title={title}>
+      <Body>
         <Outlet />
       </Body>
-      <Footer/>
     </>
   )
 }

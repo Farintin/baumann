@@ -18,19 +18,16 @@ export default function Routes () {
       element: <NotFound title="404" />
     },
     {
-      path: '*',
+      path: '/*',
       element: <Navigate to="/404" />
     },
-    {
+    /* {
       path: '',
       element: <Navigate to="/404" />
-    },
-    {
-      path: '/',
-      element: <Layout title="Baumann" />,
-      children: [
-        { path: 'skin-type-quiz', element: <Test /> }
-      ]
+    }, */
+    { 
+      path: 'skin-type-quiz', 
+      element: <Test /> 
     }
   ])
 }
