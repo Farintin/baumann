@@ -1,0 +1,25 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "baumann_logo_bg-transparent_trim_w-24.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "baumann_logo_bg-transparent_trim_w-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "baumann_logo_bg-transparent_trim_w-232.png",
+      "type": "image/png",
+      "sizes": "232x232"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "rgb(116 160 200)",
+  "background_color": "#1b1b1e"
+}
